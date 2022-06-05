@@ -1,0 +1,78 @@
+/* 公共样式 */
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+}
+
+body {
+    background-color: aliceblue;
+}
+
+
+/* 导航 */
+.top {
+    width: 1600px;
+    margin: 35px auto;
+    /* border: 1px solid; */
+}
+
+ul {
+    /* width: 300px; */
+    list-style: none;
+    /* border: 1px solid; */
+    
+}
+
+ul li {
+    float: left;
+    font-size: 19px;
+    margin-left: 50px;
+    padding: 0px 9px;
+    line-height: 40px;
+    
+}
+
+.d2 {
+    margin-left: 100px;
+}
+
+.d3,.d4 {
+    margin-left: 150px;
+}
+
+.d1,.d2,.d3,.d4 {
+    float: left;
+    /* margin-top: 35px; */
+    /* border: 1px solid; */
+    
+}
+
+.d4 img {
+    /* float: left; */
+    /* border: 1px solid; */
+    vertical-align: middle;
+}
+
+input {
+    float: left;
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(255, 159, 159);
+    outline: none;
+    
+}
+
+button {
+    width: 42px;
+    height: 42px;
+    /* float: l; */
+}
+
+ul li:hover {
+    border-bottom: 2px solid blue;
+}
+
+
+
+
